@@ -18,6 +18,12 @@ h1 {
 .navbar {
     background-color: rgb(34, 36, 33);
     text-align: left;
+    transition: .2s;
+}
+
+.navbar:hover {
+    background-color: darkblue;
+    transition: .2s;
 }
 
 .navlink {
@@ -67,6 +73,7 @@ h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;   
     margin: 15%;
+    margin-bottom: 0px;
     margin-top: 0%;
 }
 
@@ -74,8 +81,13 @@ h1 {
     text-align: center;
     border: none;
     padding: 10px;
+    width: -webkit-fill-available;;
     margin: 15px;
+    color: white;
+    background-color: blue;
     transition: .2s;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 .button:hover {
@@ -83,17 +95,23 @@ h1 {
     border: none;
     padding: 10px;
     margin: 15px;
+    background-color: red;
+    width: -webkit-fill-available;;
     border-radius: 14px;
     transition: .5s;
+    margin-bottom: 15px;
 }
 
 .button:active {
     text-align: center;
     border: none;
-    padding: 9px;
+    background-color: green;
+    padding: 10px;
     margin: 15px;
+    width: -webkit-fill-available;;
     border-radius: 24px;
     transition: .1s;
+    margin-bottom: 15px;    
 }
 
 .navbarprol {
